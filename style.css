@@ -257,6 +257,75 @@ hr.underline {
 
 
 
-/*----------------------fractal tree---------------------------*/
+/*----------------------project section---------------------------*/
+
+.project-contents{
+  background-color: rgb(238, 231, 231);
+}
+
+.project-image-prop{
+  width: 24rem;
+}
 
 
+.project-tile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem;
+  gap: 3rem;
+  margin-top: 0rem;
+  margin-bottom: 5rem;
+}
+
+
+.project-icons{
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+  margin-top: 1.5rem;
+}
+
+
+
+
+.project-para{
+  margin-top: 0.4rem;
+  margin-right: 0;
+  text-align: justify;
+}
+
+
+
+
+
+@media(max-width:768px){
+  .project-tile{
+    flex-direction: column;
+  }
+
+
+  .project-description{
+    width:24rem;
+  }
+}
+
+
+
+
+
+
+
+.button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  padding: 5px 14px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+  color: rgb(136, 136, 136);
+  box-shadow: 5px 10px 15px rgba(73, 72, 73, 0.4);
+}
