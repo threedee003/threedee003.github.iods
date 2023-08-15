@@ -329,3 +329,62 @@ hr.underline {
   color: rgb(136, 136, 136);
   box-shadow: 5px 10px 15px rgba(73, 72, 73, 0.4);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   --------------------contents section------------------------ */
+
+
+/*       mailID, github, google scholar, orcid                  */
+
+
+
+.contact-container{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  flex-direction: column;
+}
+
+.contact-icons{
+  width: 2.2rem;
+}
+
+
+.copyright-mark{
+  margin-top: 2rem;
+  text-size-adjust: 1.4rem;
+}
+
+
+
+.contact-icons1{
+  width: 2.2rem;
+}
+
+
+.contact-icons1:hover{
+  color: black;
+  box-shadow: 5px 10px 15px rgba(73, 72, 73, 0.4);
+}
